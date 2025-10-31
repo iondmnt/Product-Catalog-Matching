@@ -1,2 +1,23 @@
 # Product-Catalog-Matching
-A project to match free-text descriptions to given products from a catalog
+A project to match free-text descriptions to given products from a catalog.
+
+Dependencies: 
+-pandas
+-matplotlib
+-pathlib
+-sentence_transformers 
+-nltk
+-re
+-numpy
+-rapidfuzz
+
+User Guide to run the algorithm: 
+  To run this algorithm you need 2 csv files:
+  a. The catalog of products
+  b. The free-text descriptions dataset
+
+  -Place these 2 files in a folder and alter the paths in the second module of the jupyter notebook.
+  -If you do not want to consider other models, comment out modules [18] and [19]
+  -Run the algorithm 
+  
+
